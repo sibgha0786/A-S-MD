@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "A,S-MD:~UEsDBBQAAAgIAKyqBlvFkrenZQQAAIYHAAAKAAAAY3JlZHMuanNvbpVU2ZKiSBT9lYl81ehiURYjKmJYFMENlEWZ6IcUkkXZTBIFO*z3Cayq7nqY6anhKbkk9557zzn3ByjKtEYL1IHJD1Dh9AoJ6o+kqxCYALmJIoTBEISQQDAB5yW3jpXuciuopX4IaUvDcpHCDgmuFh7ky1G2p9finJXO6BU8hqBqjlka*CahsykHzXVmwR2jMDXPzyOd7Iuadt1MJTq55+GBtWfYZbbBK3j0GWGK0yKeVgnKEYbZAnUmTPHX4Htau4osG9pKJ4lHebRyN2LtolZl3d2AmZ27gXQxd+e15ZVfgy8ui7EYMQYac3NdY47XrrY10+w2925HG+7Or5KTtMZTbf8Ov07jAoV6iAqSku7Lc9fmFIkk6NZXj9+4d+nAtdG5Vn1ncR9dcNeyySlZDTyLmh++Bjyr5jK98eTBRVaNnV1pgbvfEtxBl9vfo1JxUC6ayn17og6fgZv4Qyvn*zP3qaSLLxI9y1uBEvhFBA2+waaFvWtlRy*Y5QvKuB0876QFX4NPu3xHzblGXfB+wmLJzII4al+24sqbJS*3mUnWDm0HGqd8mjskDf4dSu6+jajp2aYGXq7qXQ5Nwwk6S1g13vrCnNoR7NbmwZz7XrRuxSrCnYxW+xm3lks54eyT4VfhIpbs1DBVKtBajtmw6e312dEZdXoIJvRjCDCK05pgSNKy6GMMMxoCGF53KMCIPMcL3MLXGS+u3UMz1vZ4u6tgvjFaN3UvQnXJ5zeFeOXSNbs2fgVDUOEyQHWNwnlakxJ3K1TXMEY1mPz1fQgK1JI34vpyLD0EUYpr4hRNlZUw*GD14yMMgrIpyK4rAqU*IAwm1K8wIiQt4rqfY1NAHCTpFSkJJDWYRDCr0c8OEUYhmBDcoJ+uVcqwHzy9nSq+ry7AEORPQtKw9xLDMgLFjsccR00Y9s*6261PC6vqW4EIGIIC9rfBarq2peUfW8kwNxsbDEH2*J0VWGY04kVeYGma7RP08cdP4H2dEBGYZjWYAGWj1HjpTKerweYuWJomHWJJiSXwq9EPxbwxQqxG24+o9dJacktfSlEVbw6D08y+DegVpRVUss0iZavenNvrPyQBExCrnOE39Gbx4tw1wvvwgjeQp*LyriITOlPRF0siyml2bGO1nLJZsT5PLf2+l0Vh3xQaf3+xl8zihkPtLiUse1parNTLawhCdE0D9LmYUtfVYFVxjRCn6NJdS3V*zTKadDnONMZyOKtzjcKIFhejENaR467UowLD8dGbl9NwRCdy63uWJ6nRqmY7g5enN+MUv2n56aXsfYelT5X1FPavUYqeK+Gdqv+k9A14rzzqMfyU433J*ItR5aOzTLLBWt1RyiBlLL24HNTcLFtHMIm9litRd*z97WwJsxV4PL4PQZVBEpU4BxNQ50cIhgCXTa9jvYjK31RSZF1XpLe2M1gT6Zc37DRHNYF5BSY0Px6N6TEjMG+3TFxWc1gnvSq3os+KvdA7qap2BJIPqwGpf5aJBR5*A1BLAQIUAxQAAAgIAKyqBlvFkrenZQQAAIYHAAAKAAAAAAAAAAAAAACAgQAAAABjcmVkcy5qc29uUEsFBgAAAAABAAEAOAAAAI0EAAAAAA==",
+SESSION_ID: process.env.SESSION_ID || "A-S-MD:~UEsDBBQAAAgIAKyqBlvFkrenZQQAAIYHAAAKAAAAY3JlZHMuanNvbpVU2ZKiSBT9lYl81ehiURYjKmJYFMENlEWZ6IcUkkXZTBIFO*z3Cayq7nqY6anhKbkk9557zzn3ByjKtEYL1IHJD1Dh9AoJ6o+kqxCYALmJIoTBEISQQDAB5yW3jpXuciuopX4IaUvDcpHCDgmuFh7ky1G2p9finJXO6BU8hqBqjlka*CahsykHzXVmwR2jMDXPzyOd7Iuadt1MJTq55+GBtWfYZbbBK3j0GWGK0yKeVgnKEYbZAnUmTPHX4Htau4osG9pKJ4lHebRyN2LtolZl3d2AmZ27gXQxd+e15ZVfgy8ui7EYMQYac3NdY47XrrY10+w2925HG+7Or5KTtMZTbf8Ov07jAoV6iAqSku7Lc9fmFIkk6NZXj9+4d+nAtdG5Vn1ncR9dcNeyySlZDTyLmh++Bjyr5jK98eTBRVaNnV1pgbvfEtxBl9vfo1JxUC6ayn17og6fgZv4Qyvn*zP3qaSLLxI9y1uBEvhFBA2+waaFvWtlRy*Y5QvKuB0876QFX4NPu3xHzblGXfB+wmLJzII4al+24sqbJS*3mUnWDm0HGqd8mjskDf4dSu6+jajp2aYGXq7qXQ5Nwwk6S1g13vrCnNoR7NbmwZz7XrRuxSrCnYxW+xm3lks54eyT4VfhIpbs1DBVKtBajtmw6e312dEZdXoIJvRjCDCK05pgSNKy6GMMMxoCGF53KMCIPMcL3MLXGS+u3UMz1vZ4u6tgvjFaN3UvQnXJ5zeFeOXSNbs2fgVDUOEyQHWNwnlakxJ3K1TXMEY1mPz1fQgK1JI34vpyLD0EUYpr4hRNlZUw*GD14yMMgrIpyK4rAqU*IAwm1K8wIiQt4rqfY1NAHCTpFSkJJDWYRDCr0c8OEUYhmBDcoJ+uVcqwHzy9nSq+ry7AEORPQtKw9xLDMgLFjsccR00Y9s*6261PC6vqW4EIGIIC9rfBarq2peUfW8kwNxsbDEH2*J0VWGY04kVeYGma7RP08cdP4H2dEBGYZjWYAGWj1HjpTKerweYuWJomHWJJiSXwq9EPxbwxQqxG24+o9dJacktfSlEVbw6D08y+DegVpRVUss0iZavenNvrPyQBExCrnOE39Gbx4tw1wvvwgjeQp*LyriITOlPRF0siyml2bGO1nLJZsT5PLf2+l0Vh3xQaf3+xl8zihkPtLiUse1parNTLawhCdE0D9LmYUtfVYFVxjRCn6NJdS3V*zTKadDnONMZyOKtzjcKIFhejENaR467UowLD8dGbl9NwRCdy63uWJ6nRqmY7g5enN+MUv2n56aXsfYelT5X1FPavUYqeK+Gdqv+k9A14rzzqMfyU433J*ItR5aOzTLLBWt1RyiBlLL24HNTcLFtHMIm9litRd*z97WwJsxV4PL4PQZVBEpU4BxNQ50cIhgCXTa9jvYjK31RSZF1XpLe2M1gT6Zc37DRHNYF5BSY0Px6N6TEjMG+3TFxWc1gnvSq3os+KvdA7qap2BJIPqwGpf5aJBR5*A1BLAQIUAxQAAAgIAKyqBlvFkrenZQQAAIYHAAAKAAAAAAAAAAAAAACAgQAAAABjcmVkcy5qc29uUEsFBgAAAAABAAEAOAAAAI0EAAAAAA==",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -13,7 +13,7 @@ AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
-AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY A,S-MD 🤍*",
+AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY A-S-MD 🤍*",
 // set the auto reply massage on status reply  
 ANTI_DELETE: process.env.ANTI_DELETE || "true",
 // set true false for anti delete     
@@ -31,9 +31,9 @@ MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/qpnazl.j
 // add custom menu and mention reply image url
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "A,S-MD",
+BOT_NAME: process.env.BOT_NAME || "A-S-MD",
 // add bot namw here for menu
-STICKER_NAME: process.env.STICKER_NAME || "A,S-MD",
+STICKER_NAME: process.env.STICKER_NAME || "A-S-MD",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
