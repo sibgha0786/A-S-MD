@@ -1,4 +1,4 @@
-name: Node.js Bot
+name: A-S-MD Bot
 
 on:
   push:
@@ -7,11 +7,25 @@ on:
   pull_request:
     branches:
       - main
+  workflow_dispatch: # Manual run option
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Start A-S-MD Bot
+        run: |
+          echo "🚀 Starting A-S-MD Bot..."
+          node index.js
