@@ -3,9 +3,9 @@
   "description": "A WhatsApp Bot Created By ArslanMD Official",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name A,S-MD",
-    "stop": "pm2 stop A,S-MD",
-    "restart": "pm2 restart A,S-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name a-s-md",
+    "stop": "pm2 stop a-s-md",
+    "restart": "pm2 restart a-s-md"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "npm:baileys-pro@latest",
